@@ -8,7 +8,9 @@ public class Calculator extends Addition {
 		int b=6;
 		Calculator c = new Calculator();
 		Addition ax = new Addition();
+		Subtract as = new Subtract();
 		ax.add(a, b);
+		as.sub(a,b);
 		
 
 	}
